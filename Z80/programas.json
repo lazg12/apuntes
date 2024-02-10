@@ -1,0 +1,25 @@
+{
+    "3E 88 32 00 C0 18 FE": [
+        {
+            "3E":"Es la orden FETCH/OBTENER",
+            "88":"Es el dato del color del píxel en hexadecimal que es rojo, fondo, fondo y fondo.",
+            "32":"Es la orden",
+            "00 C0":"Es el dato",
+            "18":"Es la orden",
+            "FE":"Es el dato que crea el ciclo infinito para que se vea en la pantalla."
+        }
+    ],
+    "Cambio de color del píxel":[{
+        "3E 84 32 00 C0 18 FE":"84:Es el dato en hexadecimal que indica un píxel de color amarillo el siguiente de color celeste y después fondo y fondo."
+    }],
+    "Cambio de puesto para pintar el píxel":[{
+        "3E 84 32 01 C0 18 FE":"01 C0: Es el dato que indica el lugar donde se pintará el píxel, recordar que es el dato C001 solo que en el programa se pone de dos cifras donde primero se pone el dato de menor valor a esto se le llama ordenación LITTLE-ENDIAN.3e"
+    }],
+    "Pintar la primera columna de color":[{
+        "rojo, fondo, fondo, fondo":"3E 88 32 00 C0 32 00 C8 32 00 D0 32 00 D8 32 00 E0 32 00 E8 32 00 F0 32 00 F8 3E 80 32 50 C0 32 50 C8 32 50 D0 32 50 D8 32 50 E0 32 50 E8 32 50 F0 32 50 F8 3E 08 32 A0 C0 32 A0 C8 32 A0 D0 32 A0 D8 32 A0 E0 32 A0 E8 32 A0 F0 32 A0 F8 3E 88 32 F0 C0 32 F0 C8 18 FE"
+
+    }],
+    "Pintar diagonal de izquierda a derecha de arriba abajo":[{
+        "rojo, fondo, fondo, fondo": "3E 88 32 00 C0 32 00 C1 32 00 C2 32 00 C3 32 00 C4 32 00 C5 32 00 C6 18 FE"
+    }]
+}
