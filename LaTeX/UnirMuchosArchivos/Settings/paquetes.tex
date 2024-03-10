@@ -1,0 +1,76 @@
+% Paquete de idioma
+\usepackage[spanish, es-nodecimaldot, mexico]{babel} % mexico es para que aparezca en laa leyenda de tablas y no cuadros en las tablas.
+
+\usepackage[utf8]{inputenc}
+
+%Fecha
+\usepackage[useregional]{datetime2}
+
+% Configuración de página
+\usepackage{geometry}
+\geometry{left = 15mm, right = 15mm, top=35mm, bottom=20mm, headheight=30mm, showframe} % showframe muestra los marcos de las páginas
+
+% Paquete para justificar el texto
+\usepackage{ragged2e}
+
+% Referencias
+\usepackage{hyperref} % Para hacer hipervínculos
+\hypersetup{colorlinks=true, linkcolor=colorAzul1, urlcolor=colorAzul1, linktocpage, hyperfootnotes=true} % Para que aprezca de color rojo por defecto los hipervínculos al poner linkcolor=blue cambia a color azul las referencias
+
+% Paquetes de fuentes
+\usepackage{courierten}
+\renewcommand*\familydefault{\ttdefault} %% Only if the base font of the document is to be typewriter style
+\usepackage[T1]{fontenc}
+
+% Paquetes de colores
+\usepackage[table]{xcolor} % Table es para utilizar los colores en tablas también.
+\definecolor{colorRojo1}{rgb}{1.0, 0.03, 0.0}
+\definecolor{colorAzul1}{rgb}{0.0, 0.75, 1.0}
+\definecolor{colorGris1}{rgb}{0.75, 0.75, 0.75}
+\definecolor{colorGris2}{rgb}{0.66, 0.66, 0.66}
+\definecolor{colorGris3}{RGB}{50, 50, 50}
+
+% Encabezados
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\color{colorGris1}\renewcommand{\headrulewidth}{0.5mm}
+\let\oldheadrule\headrule % Pone como comando antiguo
+\renewcommand{\headrule}{\color{colorAzul1}\oldheadrule} % Redefine el comando anterior en sí está sobreescribiendo el comando anterior del encabezado
+\renewcommand{\footrulewidth}{0.2mm}
+\let\oldfootrule\footrule % Pone como comando antiguo
+\renewcommand{\footrule}{\color{colorAzul1}\oldfootrule} % Redefine el comando anterior en sí está sobreescribiendo el comando anterior del pie de página
+
+% Pie de página
+\lfoot{\textcolor{colorGris2} {\small \titulo}}
+\cfoot{}
+\rfoot{\textcolor{colorGris2}{\small Página. \thepage\ / \pageref*{LastPage}}} % El asterisco en pageref es para que no se genere el hipervínculo y tenga otro color}
+
+% Encabezado
+\lhead{\includegraphics[width=0.15\textwidth]{logox}}
+\chead{\autor}
+\rhead{Domingo \DTMsetstyle{ddmmyyyy}\fechainicio}
+\usepackage{setspace} % Permite separar entre línea de texto con mucha soltura.
+\usepackage{titlesec} % Para editar las secciones
+\titleformat{\section}{\color{colorAzul1}\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\color{colorAzul1}\normalfont\large\bfseries}{\thesubsection}{1em}{}
+
+% Paquetes de figuras
+\usepackage{graphicx} % Carga las figuras
+\graphicspath{{./Figuras}} % Indica la dirección de las figuras
+\usepackage{float} % Permite poner la posición H
+\usepackage{subcaption} % Permite poner subfiguras
+\usepackage{wrapfig} % Para envolver el texto alrededor de la figura
+\usepackage{overpic} % Para poner texto sobre las figuras
+\usepackage{caption} % Para las mini páginas poner etiquetas
+\usepackage{tikz} % Para cargar el fondo de la portada
+\usepackage[font={color = colorAzul1}]{caption} % Para el color de los captions
+
+% Paquete de tablas
+\usepackage{booktabs} % Para darle varios tipos de líneas en las tablas
+\usepackage{colortbl} % Para darle color a las tablas
+
+
+% Paquete para ecuaciones matemáticas
+\usepackage{mathtools}

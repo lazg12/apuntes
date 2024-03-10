@@ -1,16 +1,4 @@
-\documentclass[a4paper,11pt]{article}
-
-% Configuración de página
-\usepackage{geometry}
-\geometry{left=10mm, right  =25mm, top=35mm, bottom=30mm, headheight=35mm}
-
-% Paquete para justificar el texto
-\usepackage{ragged2e}
-
-% Referencias
-\usepackage{hyperref} % Para hacer hipervínculos
-\usepackage{colorlinks=true,linkcolor=blue} % Para que aprezca de color rojo por defecto los hipervínculos
-
+\documentclass[a4paper, 12pt]{article}
 
 % Paquete de idioma
 \usepackage[spanish, es-nodecimaldot, mexico]{babel} % mexico es para que aparezca en laa leyenda de tablas y no cuadros en las tablas.
@@ -19,6 +7,17 @@
 
 %Fecha
 \usepackage[useregional]{datetime2}
+
+% Configuración de página
+\usepackage{geometry}
+\geometry{left = 15mm, right = 15mm, top=35mm, bottom=20mm, headheight=30mm, showframe} % showframe muestra los marcos de las páginas
+
+% Paquete para justificar el texto
+\usepackage{ragged2e}
+
+% Referencias
+\usepackage{hyperref} % Para hacer hipervínculos
+\hypersetup{colorlinks=true, linkcolor=colorAzul1, citecolor=cyan, urlcolor=colorAzul1, linktocpage, hyperfootnotes=true} % Para que aprezca de color rojo por defecto los hipervínculos al poner linkcolor=blue cambia a color azul las referencias
 
 % Paquetes de fuentes
 \usepackage{courierten}
@@ -31,7 +30,7 @@
 \definecolor{colorAzul1}{rgb}{0.0, 0.75, 1.0}
 \definecolor{colorGris1}{rgb}{0.75, 0.75, 0.75}
 \definecolor{colorGris2}{rgb}{0.66, 0.66, 0.66}
-
+\definecolor{colorGris3}{RGB}{50, 50, 50}
 
 % Encabezados
 \usepackage{lastpage}
@@ -39,17 +38,25 @@
 \pagestyle{fancy}
 
 \color{colorGris1}\renewcommand{\headrulewidth}{0.5mm}
+\let\oldheadrule\headrule % Pone como comando antiguo
+\renewcommand{\headrule}{\color{colorAzul1}\oldheadrule} % Redefine el comando anterior en sí está sobreescribiendo el comando anterior del encabezado
 \renewcommand{\footrulewidth}{0.2mm}
+\let\oldfootrule\footrule % Pone como comando antiguo
+\renewcommand{\footrule}{\color{colorAzul1}\oldfootrule} % Redefine el comando anterior en sí está sobreescribiendo el comando anterior del pie de página
 
 % Pie de página
-\lfoot{\small Notas sobre LaTeX}
+\lfoot{\textcolor{colorGris2} {\small \titulo}}
 \cfoot{}
-\rfoot{\small Página. \thepage\ / \pageref{LastPage}}
+\rfoot{\textcolor{colorGris2}{\small Página. \thepage\ / \pageref*{LastPage}}} % El asterisco en pageref es para que no se genere el hipervínculo y tenga otro color}
 
 % Encabezado
-\lhead{LUCHO}
+\lhead{\includegraphics[width=0.15\textwidth]{logox}}
 \chead{\autor}
-\rhead{\DTMsetstyle{ddmmyyyy}\fecha}
+\rhead{Domingo \DTMsetstyle{ddmmyyyy}\fechainicio}
+\usepackage{setspace} % Permite separar entre línea de texto con mucha soltura.
+\usepackage{titlesec} % Para editar las secciones
+\titleformat{\section}{\color{colorAzul1}\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\color{colorAzul1}\normalfont\large\bfseries}{\thesubsection}{1em}{}
 
 % Paquetes de figuras
 \usepackage{graphicx} % Carga las figuras
@@ -58,37 +65,74 @@
 \usepackage{subcaption} % Permite poner subfiguras
 \usepackage{wrapfig} % Para envolver el texto alrededor de la figura
 \usepackage{overpic} % Para poner texto sobre las figuras
+\usepackage{caption} % Para las mini páginas poner etiquetas
+\usepackage{tikz} % Para cargar el fondo de la portada
+\usepackage[font={color = colorAzul1}]{caption} % Para el color de los captions
 
 % Paquete de tablas
 \usepackage{booktabs} % Para darle varios tipos de líneas en las tablas
 \usepackage{colortbl} % Para darle color a las tablas
 
+
+% Paquete para ecuaciones matemáticas
+\usepackage{mathtools}
+
+% Bibliografía
+\usepackage[backend=biber, style=apa, sortcites, url=true]{biblatex} % Para las bibliografías
+\addbibresource{Bibliografia/biblio_1.bib} % Poner la extensión es importante y recordar que los nombres de archivos o carpetas no tengan símbolos como tildes, espacios, etc. en estilo se puede poner alfabético, apa, etc.
+\urlstyle{sf}
+
 \begin{document}
-	\noindent
 	% Comandos personalizados
-	\newcommand{\fecha}{\DTMdate{2024-02-25}}
+	\newcommand{\fechainicio}{\DTMdate{2024-02-25}}
+	\newcommand{\fechafinal}{\DTMdate{2024-03-09}}
 	\newcommand{\titulo}{NOTAS SOBRE LATEX}
 	\newcommand{\autor}{Luis ZG}
+	\renewcommand{\contentsname}{Contenido} % Para poner contenido en vez de índice
+	\renewcommand{\tablename}{\bfseries Tabla} % Para poner la etiqueta o leyenda de tabla 
+	\renewcommand{\figurename}{\bfseries Figura} % Para poner la etiqueta o leyenda de figura
+	\renewcommand{\thefootnote}{\textcolor{colorAzul1}{\arabic{footnote}}}
 	
-	\begin{center}
-		\color{colorRojo1} \LARGE \textbf{\titulo} \vspace{5mm}
+	\color{colorGris3}
+	\begin{titlepage}
+		\thispagestyle{empty} % Desaparece encabezado y pie de página
+		\begin{tikzpicture}[remember picture, overlay] % El texto se supepone encima de la figura.
+			\node[inner sep=0pt] at (current page.center)
+			{\includegraphics[width=21cm]{cover.pdf}};
+		\end{tikzpicture}
 		
-		\color{colorAzul1} \textbf{Manual de ayuda}
 		
-		\color{colorAzul1} \underline {Por: \autor.}
-	\end{center}
-	
-	\begin{flushright} \color{colorGris1}
-		Inicio: Domingo 25 de febrero del 2022
+		\hfill
+		\begin{minipage}{8cm}
+			\vspace{5cm}
+			\begin{flushright}
+				\begin{spacing}{3}
+					{\fontsize{40}{50} \selectfont \color{colorRojo1} \textbf{\titulo}}
+				\end{spacing}
+			\end{flushright}
+		\end{minipage}
+		\vfill
+		\hfill
+		\begin{minipage}{10cm}
+			\begin{flushright} \color{colorGris1}
+				\begin{spacing}{2}
+					
+					\color{colorAzul1} \textbf{Manual de ayuda}
+					
+					\color{colorAzul1} \underline {Por: \autor.}
+					
+					Inicio: Domingo \fechainicio
+					
+					Fin: Sábado \fechafinal
+				\end{spacing}
+			\end{flushright}
+		\end{minipage}
 		
-		Fin: \fecha
-	\end{flushright}
+	\end{titlepage}
 	
 	\newpage
-	
 	\color{colorAzul1} \tableofcontents
-	
-	\clearpage
+	\newpage
 	
 	\begin{flushleft} \color{colorGris2}
 		
@@ -246,7 +290,7 @@
 		
 		
 		\section{Figuras que flotan}
-		Ver en la imagen figura \ref{fig:flujo4}.
+		Ver en la imagen figura \autoref{fig:flujo4}.
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=0.6\linewidth]{flujo}
@@ -345,7 +389,7 @@
 			\put (0,20) {5}
 			\put (0,40) {10}
 			\put (0,60) {15}
-			\put (63,67) {Función f(x)}
+			\put (63,67) {$ \boxed{f(x) = x^3} $}
 		\end{overpic}
 		\caption{Gráfico de una función}
 		\label{fig:funcion1}
@@ -354,7 +398,7 @@
 	ggfdg gdfg gd gfdg gfgsgf ggsfg ggsdfg jhgjghjhk kjhgkhgkhg khgkhgkgh kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbvc bvcbv cbcvvnv nbmbn mnbmn bmn bmnb nbmnbmnb mn mnb mnbmbnmnb.
 	ggfdg gdfg gd gfdg gfgsgf ggsfg ggsdfg jhgjghjhk kjhgkhgkhg khgkhgkgh kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbvc bvcbv cbcvvnv nbmbn mnbmn bmn bmnb nbmnbmnb mn mnb mnbmbnmnb.
 	ggfdg gdfg gd gfdg gfgsgf ggsfg ggsdfg jhgjghjhk kjhgkhgkhg khgkhgkgh kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbvc bvcbv cbcvvnv nbmbn mnbmn bmn bmnb nbmnbmnb mn mnb mnbmbnmnb.
-	ggfdg gdfg gd gfdg gfgsgf ggsfg ggsdfg jhgjghjhk kjhgkhgkhg khgkhgkgh kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbvc bvcbv cbcvvnv nbmbn mnbmn bmn bmnb nbmnbmnb mn mnb mnbmbnmnb.
+	ggfdg gdfg gd gfdg gfgsgf ggsfg ggsdfg jhgjghjhk kjhgkhgkhg khgkhgkgh kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbvc bvcbv cbcvvnv nbmbn mnbmn bmn bmnb nbmnbmnb mn mnb mnbmbnmnb. \footnote{\textcolor{colorAzul1}Justo está bueno poner una nota al pie de página.}
 	
 	\section{El entorno table}
 	
@@ -400,16 +444,18 @@
 		\centering
 		\caption{Coeficientes parciales de seguridad en ELS.}
 		\rowcolors{1}{white}{gray}
+		\arrayrulecolor{colorAzul1}
+		{\color{colorAzul1}
 		\begin{tabular}{p{4cm}cc}
 			\toprule % Primera línea
 			\hline \textbf{Tipo de acción} & \textbf{Efecto desfavorable} & \textbf{Efecto favorable} \\
 			\midrule % Segunda línea
-			Permanente & gG=1 & gG=1 \\
+			Permanente & $ \gamma_G= $1.00 & $ \gamma_G= $1.00 \\
 			Pretensado & 1.10 & 0.90 \\
 			Permanente de valor no constante & 1.00 & 1.00 \\
 			Variable &.00 & 0.00 \\
 			\bottomrule % Última línea
-		\end{tabular}
+		\end{tabular}}
 		\label{tab:coeficientes2}
 	\end{table}
 	
@@ -444,8 +490,196 @@
 		\end{tabular}%
 		\label{tab:cronograma}%
 	\end{table}%
-		ggfdg gdfg gd gfdg gfgsgf ggsfg ggsdfg jhgjghjhk kjhgkhgkhg khgkhgkgh kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbvc bvcbv cbcvvnv nbmbn mnbmn bmn bmnb nbmnbmnb mn mnb mnbmbnmnb.
-		
-	Esta es la referencia a la \autoref{tab:cronograma} en la \autopageref{tab:cronograma}
+		final de la tabla gdfg gd gfdg gfgsgf ggsfg ggsdfg jhgjghjhk kjhgkhgkhg khgkhgkgh kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbvc bvcbv cbcvvnv nbmbn mnbmn bmn bmnb nbmnbmnb mn mnb mnbmbnmnb.
 	
+	\newpage
+	\section{Referencias cruzadas}
+	Esta es la referencia a la \autoref{tab:cronograma} en la \autopageref{tab:cronograma}.
+	
+	ggfdg gdfg gd gfdg gfgsgf ggsfg ggsdfg jhgjghjhk kjhgkhgkhg khgkhgkgh kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbvc bvcbv cbcvvnv nbmbn mnbmn bmn bmnb nbmnbmnb mn mnb mnbmbnmnb.
+	
+	ggfdg gdfg gd gfdg gfgsgf ggsfg ggsdfg jhgjghjhk kjhgkhgkhg khgkhgkgh kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbvc bvcbv cbcvvnv nbmbn mnbmn bmn bmnb nbmnbmnb mn mnb mnbmbnmnb.
+	
+	\section{Mini páginas}
+	\begin{center}
+		\begin{minipage}{0.47\linewidth} % Para que puedan entrar dos minipaginas en columnas
+		\includegraphics[width=1\linewidth]{example-image-a}
+	\end{minipage}
+	\begin{minipage}{0.47\linewidth}
+		\includegraphics[width=1\linewidth]{example-image-b}
+	\end{minipage}
+	\end{center}
+	
+	\begin{center}
+		\begin{minipage}{0.47\linewidth} % Para que puedan entrar dos minipaginas en columnas
+			\includegraphics[width=1\linewidth]{example-image-a}
+			\captionof{figure}{Leyenda de la figura A.}
+		\end{minipage}\hfil
+		\begin{minipage}{0.3\linewidth}
+			ggfdg gdfg gd gfdg gfgsgf ggsfg ggsdfg jhgjghjhk kjhgkhgkhg khgkhgkgh kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbvc bvcbv cbcvvnv nbmbn mnbmn bmn bmnb nbmnbmnb mn mnb mnbmbnmnb
+		\end{minipage}
+	\end{center}
+	
+	\section{Entorno matemático}
+	ggfdg gdfg gd gfdg gfgsgf ggsfg ggsdfg jhgjghjhk kjhgkhgkhg khgkhgkgh kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbvc bvcbv cbcvvnv nbmbn mnbmn bmn bmnb nbmnbmnb mn mnb mnbmbnmnb. La ecuación $ E = m \cdot c^2 $.
+	
+	Tenemos también $ f_{yk} $ o sino $ x_{a}^{2} $, también tenemos $ \frac{2}{4} $ o sino $ \dfrac{3}{4} $ o la raíz $-\sqrt{2}$, centrar la siguiente ecuación el línea aparte y fuera del párrafo: $$E = m \cdot c^2 $$
+	
+	La ecuación \ref{eq:energía} se referencia solo el número, pero podemos escribir todo así \autoref{eq:energía} o sino la utilizada en los libros que es así: \eqref{eq:energía}
+	
+	Numerar ecuaciones en su propio entorno:
+	\begin{equation} \label{eq:energía}
+		E = m \cdot c^2
+	\end{equation}
+	
+	Ecuación sin numerar dentro de un entorno
+	\begin{equation*}
+		E = m \cdot c^2
+	\end{equation*}
+	
+	
+	\section{Símbolos}
+	La suma es $ a + b $, la resta es $ a - b $, la multiplicación es $ a \cdot b$ o sino $ a \times b $
+	
+	Para funciones trigonométricas $ \cos(30) $ o sino $ \sin(30) $
+	
+	Para integrales $$ \int_0^L x^2, \quad \quad 10 < 15 \quad \Rightarrow \quad 15 \geq 10 $$ % El comando \quad es para dar un espacio en blanco pero se puede utilizar también el comando \hspace{4} donde el 4 es la cantidad de espacios.
+	
+	\section{Matrices y arreglos}
+	
+	Ecuaciones alineadas y numeradas
+	\begin{align}
+		f(x) & = x^2 + x^3 \\
+		& = x^2 + x^2 \cdot x
+	\end{align}
+	
+	Ecuaciones alineadas y no numeradas
+	\begin{align*}
+		f(x) & = x^2 + x^3 \\
+		& = x^2 + x^2 \cdot x
+	\end{align*}
+	
+	Matrices numeradas
+	\begin{equation}
+		A = 
+		\begin{pmatrix}
+			1 & 2 & 3 \\
+			4 & 5 & 6 \\
+			7 & 8 & 9
+		\end{pmatrix}
+	\end{equation}
+	
+	Matrices no numeradas
+	\begin{equation*}
+		A = 
+		\begin{pmatrix}
+			1 & 2 & 3 \\
+			4 & 5 & 6 \\
+			7 & 8 & 9
+		\end{pmatrix}, \quad
+		B = 
+		\begin{bmatrix}
+			1 & 2 & 3 \\
+			4 & 5 & 6 \\
+			7 & 8 & 9
+		\end{bmatrix}, \quad
+		C = 
+		\begin{matrix}
+		1 & 2 & 3 \\
+		4 & 5 & 6 \\
+		7 & 8 & 9
+		\end{matrix}, \quad
+		D = 
+		\begin{Bmatrix}
+		1 & a & 3 \\
+		4 & b_2 & 6 \\
+		7 & 8 & 9
+		\end{Bmatrix}, \quad
+		E = 
+		\begin{vmatrix}
+		1 & 2 & 3 \\
+		4 & 5 & 6 \\
+		7 & 8 & 9
+		\end{vmatrix}, \quad
+		F = 
+		\begin{Vmatrix}
+		1 & 2 & 3 \\
+		4 & 5 & 6 \\
+		7 & 8 & 9
+		\end{Vmatrix}
+	\end{equation*} % No tiene que quedar la línea en blanco o sino sale error
+	
+	\section{Dibujar ecuaciones con la mano}
+	Ir a asistentes y después asistente de matemáticas ... que está al final del menú.
+	No olvidar poner el entorno equation para escribir en lenguaje matemático.
+	\begin{equation}
+		\sum _{x=0}^{n}f{\left(x\right)}^{2}+1=0
+	\end{equation}
+	
+	\section{Tipos de errores y alertas}
+	
+		Undefined control sequence.- No conoce el comando. Está mal escrito o no está cargado el paquete necesario.
+	
+		Missing \$ inserted.- Falta el entorno matemático.
+	
+		Extra \} or forggotten \$.- Falta cerrar una viñeta o entorno matemático.
+	
+		File ended while scannig. . ..- Algo empezó con { pero nunca se cerró.
+		
+		llegal unit of measure.- No se indicó una unidad de medida o distancia o no existe.
+		
+		File ‘nombre’ not found.- No se encuentra un archivo. No existe o está mal escrito.
+		
+		Extra alignment tab has been changed to $\backslash$cr.- Faltan o sobran columnas en una tabla.
+		
+		Environment ‘nombre’ undefined.- No existe o se escribió mal un entorno.\newline
+		
+		ADVERTENCIAS
+		
+		No position in optional float specifier.- No se indició posición en figura o tabla [hbtp!].
+		
+		Reference ‘nombre’ undefined.- No se encuentra una referencia. No existe o está mal escrita.
+		
+		There were multiply-defined labels.- Cuando tenemos más de un elemento con la misma etiqueta.
+		
+		\section{Estructura de carpetas}
+		\begin{enumerate}
+			\item Bibliografía
+			\item Figuras
+			\item Secciones
+			\item Settings o ajustes
+		\end{enumerate}
+		
+		\section{Unir muchos archivos}
+		
+		\begin{itemize}
+			\item paquetes.tex
+			\item inicial.tex
+			\item 00\_portada.tex
+			\item 01\_introducción.tex
+			\item 02\_metodología.tex
+			\item 03\_conclusiones.tex
+		\end{itemize}
+		
+		\section{Ventajas del sistema}
+		
+		\section{Bibliografía a mano}
+		\addcontentsline{toc}{section}{Referencias} % Para que salga en el índice
+		
+		
+		ggfdg gdfg gd gfdg gfgsgf ggsfg ggsdfg jhgjghjhk kjhgkhgkhg khgkhgkgh kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbvc bvcbv cbcvvnv nbmbn mnbmn bmn bmnb nbmnbmnb mn mnb mnbmbnmnb. Como dijo \cite{notsoshort}. Tengo también a \cite{typogra} o a los dos \cite{notsoshort, typogra}.
+		
+		\begin{thebibliography}{100} % Indica que se van a poner 100 referencias bibliográficas
+			\bibitem{notsoshort} \textit{The not So Short Introduction to \LaTeX}, Oetiker, T. et.al., 2015.
+			\bibitem{typogra} \textit{Digital Typography Using \LaTeX}, Syropoulos, A., Tsolomitis, et.al., Springer NY, 2003.
+		\end{thebibliography}
+		
+		\section{El paquete BibLaTeX}
+		$\backslash$usepackage\{biblatex\}
+		
+		ggfdg gdfg gd gfdg gfgsgf ggsfg ggsdfg jhgjghjhk kjhgkhgkhg khgkhgkgh kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbvc bvcbv cbcvvnv nbmbn mnbmn bmn bmnb nbmnbmnb mn mnb mnbmbnmnb. Como dijo \cite{ArgosyMedicalAnimation} y también \parencite{article-example, biber, biblatex} y por otra parte \textcite{guia1}.
+		
+		% Bibliografía del paquete BibLaTeX
+		\printbibliography[heading=bibintoc]
+		
 \end{document}

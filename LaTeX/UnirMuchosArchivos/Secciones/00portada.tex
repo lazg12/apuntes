@@ -1,0 +1,35 @@
+\begin{titlepage}
+	\thispagestyle{empty} % Desaparece encabezado y pie de página
+	\begin{tikzpicture}[remember picture, overlay] % El texto se supepone encima de la figura.
+		\node[inner sep=0pt] at (current page.center)
+		{\includegraphics[width=21cm]{cover.pdf}};
+	\end{tikzpicture}
+	
+	
+	\hfill
+	\begin{minipage}{8cm}
+		\vspace{5cm}
+		\begin{flushright}
+			\begin{spacing}{3}
+				{\fontsize{40}{50} \selectfont \color{colorRojo1} \textbf{\titulo}}
+			\end{spacing}
+		\end{flushright}
+	\end{minipage}
+	\vfill
+	\hfill
+	\begin{minipage}{10cm}
+		\begin{flushright} \color{colorGris1}
+			\begin{spacing}{2}
+				
+				\color{colorAzul1} \textbf{Manual de ayuda}
+				
+				\color{colorAzul1} \underline {Por: \autor.}
+				
+				Inicio: Domingo \fechainicio
+				
+				Fin: Sábado \fechafinal
+			\end{spacing}
+		\end{flushright}
+	\end{minipage}
+	
+\end{titlepage}
