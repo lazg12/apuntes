@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  9 MAR 2024 22:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  11 MAR 2024 00:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2392,11 +2392,21 @@ Overfull \hbox (8.44365pt too wide) in paragraph at lines 683--683
 o de 2016, desde [][]$\T1/cmss/m/n/12 http : / / www . ctan .
  []
 
+
+Overfull \hbox (3.39821pt too wide) in paragraph at lines 692--693
+[][] 
+ []
+
 File: ./Figuras/logox.png Graphic file (type png)
 <use ./Figuras/logox.png>
-Package pdftex.def Info: ./Figuras/logox.png  used on input line 685.
+Package pdftex.def Info: ./Figuras/logox.png  used on input line 693.
 (pdftex.def)             Requested size: 76.8193pt x 21.7414pt.
-[16] 
+[16]
+File: ./Figuras/logox.png Graphic file (type png)
+<use ./Figuras/logox.png>
+Package pdftex.def Info: ./Figuras/logox.png  used on input line 693.
+(pdftex.def)             Requested size: 76.8193pt x 21.7414pt.
+ [17] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (notasDeLatex.aux
 LaTeX Info: Redefining \sptext on input line 9.
@@ -2418,10 +2428,10 @@ Package logreq Info: Writing requests to 'notasDeLatex.run.xml'.
 ### simple group (level 1) entered at line 627 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 35983 strings out of 474435
- 693386 string characters out of 5751761
+ 36017 strings out of 474435
+ 694172 string characters out of 5751761
  1947190 words of memory out of 5000000
- 57696 multiletter control sequences out of 15000+600000
+ 57729 multiletter control sequences out of 15000+600000
  570721 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  88i,16n,131p,687b,2899s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2440,9 +2450,9 @@ pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
 am Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type
 1/public/lm/lmss17.pfb>
-Output written on notasDeLatex.pdf (17 pages, 979081 bytes).
+Output written on notasDeLatex.pdf (18 pages, 981890 bytes).
 PDF statistics:
- 432 PDF objects out of 1000 (max. 8388607)
- 83 named destinations out of 1000 (max. 500000)
- 346 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 440 PDF objects out of 1000 (max. 8388607)
+ 84 named destinations out of 1000 (max. 500000)
+ 358 words of extra memory for PDF output out of 10000 (max. 10000000)
 

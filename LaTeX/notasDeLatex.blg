@@ -1,22 +1,22 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'notasDeLatex.blg'
-[310] biber-MSWIN64:340> INFO - === 
-[431] Biber.pm:419> INFO - Reading 'notasDeLatex.bcf'
-[794] Biber.pm:979> INFO - Found 7 citekeys in bib section 0
-[949] Biber.pm:4419> INFO - Processing section 0
-[972] Biber.pm:4610> INFO - Looking for bibtex file 'Bibliografia/biblio_1.bib' for section 0
-[1111] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1160] bibtex.pm:1519> INFO - Found BibTeX data source 'Bibliografia/biblio_1.bib'
-[1315] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1315] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1316] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[1354] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1354] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1354] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[1377] bbl.pm:660> INFO - Writing 'notasDeLatex.bbl' with encoding 'UTF-8'
-[1386] bbl.pm:763> INFO - Output to notasDeLatex.bbl
-[1387] Biber.pm:131> WARN - legacy month field 'feb' in entry 'article-example' is not an integer - this will probably not sort properly.
-[1387] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\l\AppData\Local\Temp\biber_tmp_T9GQ\f6e46c044b7a94160234e98e7535d543_15728.utf8, line 6, warning: 172 characters of junk seen at toplevel
-[1387] Biber.pm:131> WARN - I didn't find a database entry for 'notsoshort' (section 0)
-[1387] Biber.pm:131> WARN - I didn't find a database entry for 'typogra' (section 0)
-[1387] Biber.pm:133> INFO - WARNINGS: 4
+[192] biber-MSWIN64:340> INFO - === 
+[262] Biber.pm:419> INFO - Reading 'notasDeLatex.bcf'
+[491] Biber.pm:979> INFO - Found 7 citekeys in bib section 0
+[532] Biber.pm:4419> INFO - Processing section 0
+[557] Biber.pm:4610> INFO - Looking for bibtex file 'Bibliografia/biblio_1.bib' for section 0
+[670] bibtex.pm:1713> INFO - LaTeX decoding ...
+[706] bibtex.pm:1519> INFO - Found BibTeX data source 'Bibliografia/biblio_1.bib'
+[832] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[832] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[832] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[854] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[854] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[854] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[868] bbl.pm:660> INFO - Writing 'notasDeLatex.bbl' with encoding 'UTF-8'
+[876] bbl.pm:763> INFO - Output to notasDeLatex.bbl
+[876] Biber.pm:131> WARN - legacy month field 'feb' in entry 'article-example' is not an integer - this will probably not sort properly.
+[876] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\l\AppData\Local\Temp\biber_tmp_7eTc\f6e46c044b7a94160234e98e7535d543_16068.utf8, line 6, warning: 172 characters of junk seen at toplevel
+[876] Biber.pm:131> WARN - I didn't find a database entry for 'notsoshort' (section 0)
+[877] Biber.pm:131> WARN - I didn't find a database entry for 'typogra' (section 0)
+[877] Biber.pm:133> INFO - WARNINGS: 4

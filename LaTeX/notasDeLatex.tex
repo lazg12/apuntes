@@ -142,6 +142,8 @@
 		
 		Ctrl + clic: Lleva a la palabra que pertenece entre editor y el PDF.\newline
 		
+		Ctrl + t: Comenta todo el código seleccionado
+		
 		\textbackslash indent: Inserta sangría.\newline
 		
 		\textbackslash noindent: Elimina sangría.\newline
@@ -682,4 +684,12 @@
 		% Bibliografía del paquete BibLaTeX
 		\printbibliography[heading=bibintoc]
 		
+		\begin{tikzpicture}
+			{\draw (0mm,0mm);}
+			{\shade [inner color=red, outer color=white, even odd rule] circle (15mm) circle (2mm);}
+			{\fill[red] (15, -3) circle (10mm);}
+			%{\draw[->](-1.5,0) -- (1.5,0);}
+			%{\draw[->](0,-1.5) -- (0,1.5);}
+			{\shadedraw[shading=radial, line width=2mm, color=blue, outer color=red, inner color=yellow](10,-3) circle (30mm);}
+		\end{tikzpicture}
 \end{document}
