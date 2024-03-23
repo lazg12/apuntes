@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.9)  11 MAR 2024 00:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.21)  22 MAR 2024 16:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./notasDeLatex.tex
 (notasDeLatex.tex
 LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-02-20>
+L3 programming layer <2024-03-14>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (C:\Program Files\MiKTeX\tex/latex/base\size12.clo
@@ -1087,21 +1087,21 @@ Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
 
 (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2024-02-20 L3 programming layer (loader) 
+Package: expl3 2024-03-14 L3 programming layer (loader) 
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count474
 \l__pdf_internal_box=\box73
 ))
 Package biblatex Info: ... and expl3
-(biblatex)             2024-02-20 L3 programming layer (loader) 
+(biblatex)             2024-03-14 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
 (C:\Program Files\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
 (C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
-Package: xparse 2024-02-18 L3 Experimental document command parser
+Package: xparse 2024-03-14 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))
@@ -1423,7 +1423,7 @@ Package pdftex.def Info: ./Figuras/logox.png  used on input line 135.
  [2]
 File: ./Figuras/logox.png Graphic file (type png)
 <use ./Figuras/logox.png>
-Package pdftex.def Info: ./Figuras/logox.png  used on input line 182.
+Package pdftex.def Info: ./Figuras/logox.png  used on input line 184.
 (pdftex.def)             Requested size: 76.8193pt x 21.7414pt.
  [3]
 File: ./Figuras/logox.png Graphic file (type png)
@@ -1432,431 +1432,428 @@ Package pdftex.def Info: ./Figuras/logox.png  used on input line 212.
 (pdftex.def)             Requested size: 76.8193pt x 21.7414pt.
  [4]
 LaTeX Font Info:    Font shape `T1/CourierOneZeroPitch-TLF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 214.
+(Font)              scaled to size 14.4pt on input line 216.
 LaTeX Font Info:    Font shape `T1/CourierOneZeroPitch-TLF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 214.
+(Font)              scaled to size 14.4pt on input line 216.
 File: ./Figuras/logox.png Graphic file (type png)
 <use ./Figuras/logox.png>
-Package pdftex.def Info: ./Figuras/logox.png  used on input line 245.
+Package pdftex.def Info: ./Figuras/logox.png  used on input line 239.
 (pdftex.def)             Requested size: 76.8193pt x 21.7414pt.
  [5]
 <./Figuras/flujo.png, id=216, 599.23875pt x 262.73157pt>
 File: ./Figuras/flujo.png Graphic file (type png)
 <use ./Figuras/flujo.png>
-Package pdftex.def Info: ./Figuras/flujo.png  used on input line 255.
+Package pdftex.def Info: ./Figuras/flujo.png  used on input line 257.
 (pdftex.def)             Requested size: 128.0374pt x 56.13339pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 sfsdafa sagdgdf ggfdg gdfg gd gfdg g
 fgsgf ggsfg ggsdfg jhgjghjhk
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
 \T1/CourierOneZeroPitch-TLF/regular/n/12 kjhgkhgkhg khgkhgkgh kjhkhkggkh khgkhg
 kh vxcvx cvxcv xcbcbvc bvcbv
  []
 
 File: ./Figuras/flujo.png Graphic file (type png)
 <use ./Figuras/flujo.png>
-Package pdftex.def Info: ./Figuras/flujo.png  used on input line 266.
+Package pdftex.def Info: ./Figuras/flujo.png  used on input line 268.
 (pdftex.def)             Requested size: 114.08116pt x 50.01572pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--267
+Underfull \hbox (badness 10000) in paragraph at lines 269--269
 [][]\T1/CourierOneZeroPitch-TLF/bold/n/12 Figura 2\T1/CourierOneZeroPitch-TLF/r
 egular/n/12 :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--267
+Underfull \hbox (badness 10000) in paragraph at lines 269--269
 |\T1/CourierOneZeroPitch-TLF/regular/n/12 Representación
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 [][]\T1/CourierOneZeroPitch-TLF/regular/n/12 ggfdg gdfg gd gfdg gfgsgf ggsfg gg
 sdfg jhgjghjhk
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 \T1/CourierOneZeroPitch-TLF/regular/n/12 kjhgkhgkhg khgkhgkgh kjhkhkggkh khgkhg
 kh vxcvx
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 \T1/CourierOneZeroPitch-TLF/regular/n/12 cvxcv xcbcbvc bvcbv cbcvvnv nbmbn mnbm
 n bmn bmnb
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 sfsdafa sagdgdf ggfdg gdfg gd gfdg g
 fgsgf ggsfg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 \T1/CourierOneZeroPitch-TLF/regular/n/12 ggsdfg jhgjghjhk kjhgkhgkhg khgkhgkgh 
 kjhkhkggkh
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 \T1/CourierOneZeroPitch-TLF/regular/n/12 khgkhgkh vxcvx cvxcv xcbcbvc bvcbv cbc
 vvnv nbmbn
  []
 
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-275.
+277.
 
 File: ./Figuras/flujo.png Graphic file (type png)
 <use ./Figuras/flujo.png>
-Package pdftex.def Info: ./Figuras/flujo.png  used on input line 277.
+Package pdftex.def Info: ./Figuras/flujo.png  used on input line 279.
 (pdftex.def)             Requested size: 114.08116pt x 50.01572pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
+Underfull \hbox (badness 10000) in paragraph at lines 280--280
 [][]\T1/CourierOneZeroPitch-TLF/bold/n/12 Figura 3\T1/CourierOneZeroPitch-TLF/r
 egular/n/12 :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
+Underfull \hbox (badness 10000) in paragraph at lines 280--280
 |\T1/CourierOneZeroPitch-TLF/regular/n/12 Representación
  []
 
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 28
-2.
+4.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 sfsdafa sagdgdf ggfdg gdfg gd gfdg g
 fgsgf ggsfg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
 \T1/CourierOneZeroPitch-TLF/regular/n/12 ggsdfg jhgjghjhk kjhgkhgkhg khgkhgkgh 
 kjhkhkggkh
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
 \T1/CourierOneZeroPitch-TLF/regular/n/12 khgkhgkh vxcvx cvxcv xcbcbvc bvcbv cbc
 vvnv nbmbn mnbmn bmn bmnb
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 ggfdg gdfg gd gfdg gfgsgf ggsfg ggsd
 fg jhgjghjhk
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
 \T1/CourierOneZeroPitch-TLF/regular/n/12 kjhgkhgkhg khgkhgkgh kjhkhkggkh khgkhg
 kh vxcvx
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
 \T1/CourierOneZeroPitch-TLF/regular/n/12 cvxcv xcbcbvc bvcbv cbcvvnv nbmbn mnbm
 n bmn bmnb
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 sfsdafa sagdgdf ggfdg gdfg gd gfdg g
 fgsgf ggsfg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
 \T1/CourierOneZeroPitch-TLF/regular/n/12 ggsdfg jhgjghjhk kjhgkhgkhg khgkhgkgh 
 kjhkhkggkh
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
 \T1/CourierOneZeroPitch-TLF/regular/n/12 khgkhgkh vxcvx cvxcv xcbcbvc bvcbv cbc
 vvnv nbmbn
  []
 
+File: ./Figuras/logox.png Graphic file (type png)
+<use ./Figuras/logox.png>
+Package pdftex.def Info: ./Figuras/logox.png  used on input line 294.
+(pdftex.def)             Requested size: 76.8193pt x 21.7414pt.
+[6 <./Figuras/flujo.png>]
 File: ./Figuras/flujo.png Graphic file (type png)
 <use ./Figuras/flujo.png>
-Package pdftex.def Info: ./Figuras/flujo.png  used on input line 296.
+Package pdftex.def Info: ./Figuras/flujo.png  used on input line 298.
 (pdftex.def)             Requested size: 307.2929pt x 134.73297pt.
 File: ./Figuras/logox.png Graphic file (type png)
 <use ./Figuras/logox.png>
-Package pdftex.def Info: ./Figuras/logox.png  used on input line 300.
+Package pdftex.def Info: ./Figuras/logox.png  used on input line 308.
 (pdftex.def)             Requested size: 76.8193pt x 21.7414pt.
-[6 <./Figuras/flujo.png>]
-<./Figuras/grafica_torta.png, id=228, 552.0625pt x 552.0625pt>
+ [7]
+<./Figuras/grafica_torta.png, id=232, 552.0625pt x 552.0625pt>
 File: ./Figuras/grafica_torta.png Graphic file (type png)
 <use ./Figuras/grafica_torta.png>
-Package pdftex.def Info: ./Figuras/grafica_torta.png  used on input line 309.
+Package pdftex.def Info: ./Figuras/grafica_torta.png  used on input line 311.
 (pdftex.def)             Requested size: 102.42836pt x 102.42479pt.
-<./Figuras/grafica_barras.png, id=229, 411.136pt x 411.136pt>
+<./Figuras/grafica_barras.png, id=233, 411.136pt x 411.136pt>
 File: ./Figuras/grafica_barras.png Graphic file (type png)
 <use ./Figuras/grafica_barras.png>
-Package pdftex.def Info: ./Figuras/grafica_barras.png  used on input line 316.
+Package pdftex.def Info: ./Figuras/grafica_barras.png  used on input line 318.
 (pdftex.def)             Requested size: 102.42836pt x 102.42616pt.
 File: ./Figuras/grafica_torta.png Graphic file (type png)
 <use ./Figuras/grafica_torta.png>
-Package pdftex.def Info: ./Figuras/grafica_torta.png  used on input line 325.
+Package pdftex.def Info: ./Figuras/grafica_torta.png  used on input line 327.
 (pdftex.def)             Requested size: 92.18489pt x 92.18147pt.
 File: ./Figuras/grafica_barras.png Graphic file (type png)
 <use ./Figuras/grafica_barras.png>
-Package pdftex.def Info: ./Figuras/grafica_barras.png  used on input line 331.
+Package pdftex.def Info: ./Figuras/grafica_barras.png  used on input line 333.
 (pdftex.def)             Requested size: 92.18489pt x 92.18166pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 335--335
+Underfull \hbox (badness 10000) in paragraph at lines 337--337
 [][]\T1/CourierOneZeroPitch-TLF/bold/n/12 Figura 7\T1/CourierOneZeroPitch-TLF/r
 egular/n/12 : |Este es el caso donde se pueden poner 2 o más subfiguras la
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: ./Figuras/logox.png Graphic file (type png)
-<use ./Figuras/logox.png>
-Package pdftex.def Info: ./Figuras/logox.png  used on input line 341.
-(pdftex.def)             Requested size: 76.8193pt x 21.7414pt.
-[7 <./Figuras/grafica_torta.png> <./Figuras/grafica_barras.png>]
-<./Figuras/tex_lion.png, id=242, 2057.6875pt x 1826.825pt>
+<./Figuras/tex_lion.png, id=238, 2057.6875pt x 1826.825pt>
 File: ./Figuras/tex_lion.png Graphic file (type png)
 <use ./Figuras/tex_lion.png>
-Package pdftex.def Info: ./Figuras/tex_lion.png  used on input line 350.
+Package pdftex.def Info: ./Figuras/tex_lion.png  used on input line 352.
 (pdftex.def)             Requested size: 121.68912pt x 108.01588pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--353
+Underfull \hbox (badness 10000) in paragraph at lines 349--355
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 ggfdg gdfg gd gfdg gfgsgf ggsfg ggsd
 fg jhgjghjhk kjhgkhgkhg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--353
+Underfull \hbox (badness 10000) in paragraph at lines 349--355
 \T1/CourierOneZeroPitch-TLF/regular/n/12 khgkhgkgh kjhkhkggkh khgkhgkh vxcvx cv
 xcv xcbcbvc bvcbv
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--353
+Underfull \hbox (badness 10000) in paragraph at lines 349--355
 \T1/CourierOneZeroPitch-TLF/regular/n/12 cbcvvnv nbmbn mnbmn bmn bmnb nbmnbmnb 
 mn mnb mnbmbnmnb.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--355
+Underfull \hbox (badness 10000) in paragraph at lines 355--357
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 ggfdg gdfg gd gfdg gfgsgf ggsfg ggsd
 fg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--355
+Underfull \hbox (badness 10000) in paragraph at lines 355--357
 \T1/CourierOneZeroPitch-TLF/regular/n/12 jhgjghjhk kjhgkhgkhg khgkhgkgh kjhkhkg
 gkh
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--355
+Underfull \hbox (badness 10000) in paragraph at lines 355--357
 \T1/CourierOneZeroPitch-TLF/regular/n/12 khgkhgkh vxcvx cvxcv xcbcbvc bvcbv cbc
 vvnv
  []
 
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-360.
+362.
 
 File: ./Figuras/tex_lion.png Graphic file (type png)
 <use ./Figuras/tex_lion.png>
-Package pdftex.def Info: ./Figuras/tex_lion.png  used on input line 362.
+Package pdftex.def Info: ./Figuras/tex_lion.png  used on input line 364.
 (pdftex.def)             Requested size: 82.78197pt x 73.47867pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--363
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
 [][]\T1/CourierOneZeroPitch-TLF/bold/n/12 Figura 9\T1/CourierOneZeroPitch-TLF/r
 egular/n/12 : |El
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--365
+Underfull \hbox (badness 10000) in paragraph at lines 359--367
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 ggfdg gdfg gd gfdg gfgsgf ggsfg ggsd
 fg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--365
+Underfull \hbox (badness 10000) in paragraph at lines 359--367
 \T1/CourierOneZeroPitch-TLF/regular/n/12 jhgjghjhk kjhgkhgkhg khgkhgkgh kjhkhkg
 gkh
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--365
+Underfull \hbox (badness 10000) in paragraph at lines 359--367
 \T1/CourierOneZeroPitch-TLF/regular/n/12 khgkhgkh vxcvx cvxcv xcbcbvc bvcbv cbc
 vvnv
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--365
+Underfull \hbox (badness 10000) in paragraph at lines 359--367
 \T1/CourierOneZeroPitch-TLF/regular/n/12 nbmbn mnbmn bmn bmnb nbmnbmnb mn mnb m
 nbmbnmnb.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--365
+Underfull \hbox (badness 10000) in paragraph at lines 359--367
 \T1/CourierOneZeroPitch-TLF/regular/n/12 ggfdg gdfg gd gfdg gfgsgf ggsfg ggsdfg
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--365
+Underfull \hbox (badness 10000) in paragraph at lines 359--367
 \T1/CourierOneZeroPitch-TLF/regular/n/12 jhgjghjhk kjhgkhgkhg khgkhgkgh kjhkhkg
 gkh
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--365
+Underfull \hbox (badness 10000) in paragraph at lines 359--367
 \T1/CourierOneZeroPitch-TLF/regular/n/12 khgkhgkh vxcvx cvxcv xcbcbvc bvcbv cbc
 vvnv nbmbn mnbmn bmn bmnb
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--365
+Underfull \hbox (badness 10000) in paragraph at lines 359--367
 \T1/CourierOneZeroPitch-TLF/regular/n/12 nbmnbmnb mn mnb mnbmbnmnb. ggfdg gdfg 
 gd gfdg gfgsgf ggsfg ggsdfg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--365
+Underfull \hbox (badness 10000) in paragraph at lines 359--367
 \T1/CourierOneZeroPitch-TLF/regular/n/12 jhgjghjhk kjhgkhgkhg khgkhgkgh kjhkhkg
 gkh khgkhgkh vxcvx cvxcv
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--365
+Underfull \hbox (badness 10000) in paragraph at lines 359--367
 \T1/CourierOneZeroPitch-TLF/regular/n/12 xcbcbvc bvcbv cbcvvnv nbmbn mnbmn bmn 
 bmnb nbmnbmnb mn mnb mnbmbnmnb.
  []
 
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 36
-5.
+7.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--369
+Underfull \hbox (badness 10000) in paragraph at lines 367--371
 \T1/CourierOneZeroPitch-TLF/regular/n/12 ggfdg gdfg gd gfdg gfgsgf ggsfg ggsdfg
  jhgjghjhk kjhgkhgkhg khgkhgkgh
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--369
+Underfull \hbox (badness 10000) in paragraph at lines 367--371
 \T1/CourierOneZeroPitch-TLF/regular/n/12 kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbv
 c bvcbv cbcvvnv nbmbn mnbmn
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--369
+Underfull \hbox (badness 10000) in paragraph at lines 367--371
 \T1/CourierOneZeroPitch-TLF/regular/n/12 bmn bmnb nbmnbmnb mn mnb mnbmbnmnb. gg
 fdg gdfg gd gfdg gfgsgf ggsfg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--369
+Underfull \hbox (badness 10000) in paragraph at lines 367--371
 \T1/CourierOneZeroPitch-TLF/regular/n/12 ggsdfg jhgjghjhk kjhgkhgkhg khgkhgkgh 
 kjhkhkggkh khgkhgkh vxcvx cvxcv
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--369
+Underfull \hbox (badness 10000) in paragraph at lines 367--371
 \T1/CourierOneZeroPitch-TLF/regular/n/12 xcbcbvc bvcbv cbcvvnv nbmbn mnbmn bmn 
 bmnb nbmnbmnb mn mnb mnbmbnmnb.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--369
+Underfull \hbox (badness 10000) in paragraph at lines 367--371
 \T1/CourierOneZeroPitch-TLF/regular/n/12 ggfdg gdfg gd gfdg gfgsgf ggsfg ggsdfg
  jhgjghjhk kjhgkhgkhg khgkhgkgh
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--369
+Underfull \hbox (badness 10000) in paragraph at lines 367--371
 \T1/CourierOneZeroPitch-TLF/regular/n/12 kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbv
 c bvcbv cbcvvnv nbmbn mnbmn bmn
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--372
+Underfull \hbox (badness 10000) in paragraph at lines 372--374
 [][]\T1/CourierOneZeroPitch-TLF/regular/n/12 ggfdg gdfg gd gfdg gfgsgf ggsfg gg
 sdfg jhgjghjhk
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--372
+Underfull \hbox (badness 10000) in paragraph at lines 372--374
 \T1/CourierOneZeroPitch-TLF/regular/n/12 kjhgkhgkhg khgkhgkgh kjhkhkggkh khgkhg
 kh vxcvx cvxcv
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--372
+Underfull \hbox (badness 10000) in paragraph at lines 372--374
 \T1/CourierOneZeroPitch-TLF/regular/n/12 xcbcbvc bvcbv cbcvvnv nbmbn mnbmn bmn 
 bmnb nbmnbmnb mn
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--372
+Underfull \hbox (badness 10000) in paragraph at lines 372--374
 \T1/CourierOneZeroPitch-TLF/regular/n/12 mnb mnbmbnmnb. ggfdg gdfg gd gfdg gfgs
 gf ggsfg ggsdfg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--372
+Underfull \hbox (badness 10000) in paragraph at lines 372--374
 \T1/CourierOneZeroPitch-TLF/regular/n/12 jhgjghjhk kjhgkhgkhg khgkhgkgh kjhkhkg
 gkh khgkhgkh
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--372
+Underfull \hbox (badness 10000) in paragraph at lines 372--374
 \T1/CourierOneZeroPitch-TLF/regular/n/12 vxcvx cvxcv xcbcbvc bvcbv cbcvvnv nbmb
 n mnbmn bmn bmnb
  []
 
 
-Overfull \hbox (12.50612pt too wide) in paragraph at lines 344--374
+Overfull \hbox (12.50612pt too wide) in paragraph at lines 346--376
 []$[]$ 
  []
 
 File: ./Figuras/logox.png Graphic file (type png)
 <use ./Figuras/logox.png>
-Package pdftex.def Info: ./Figuras/logox.png  used on input line 375.
+Package pdftex.def Info: ./Figuras/logox.png  used on input line 377.
 (pdftex.def)             Requested size: 76.8193pt x 21.7414pt.
-[8]
+[8 <./Figuras/grafica_torta.png> <./Figuras/grafica_barras.png>]
 File: ./Figuras/logox.png Graphic file (type png)
 <use ./Figuras/logox.png>
-Package pdftex.def Info: ./Figuras/logox.png  used on input line 375.
+Package pdftex.def Info: ./Figuras/logox.png  used on input line 377.
 (pdftex.def)             Requested size: 76.8193pt x 21.7414pt.
  [9 <./Figuras/tex_lion.png>]
-Overfull \hbox (3.93112pt too wide) in paragraph at lines 378--380
+Overfull \hbox (3.93112pt too wide) in paragraph at lines 380--382
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 ggfdg gdfg gd gfdg gfgsgf ggsfg ggsd
 fg jhgjghjhk kjhgkhgkhg khgkhgkgh
  []
 
 
-Overfull \hbox (22.4263pt too wide) in paragraph at lines 378--380
+Overfull \hbox (22.4263pt too wide) in paragraph at lines 380--382
 \T1/CourierOneZeroPitch-TLF/regular/n/12 kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbv
 c bvcbv cbcvvnv nbmbn mnbmn bmn bmnb
  []
 
 
-Overfull \hbox (29.6503pt too wide) in paragraph at lines 378--380
+Overfull \hbox (29.6503pt too wide) in paragraph at lines 380--382
 \T1/CourierOneZeroPitch-TLF/regular/n/12 nbmnbmnb mn mnb mnbmbnmnb. ggfdg gdfg 
 gd gfdg gfgsgf ggsfg ggsdfg jhgjghjhk
  []
 
 
-Overfull \hbox (22.4263pt too wide) in paragraph at lines 378--380
+Overfull \hbox (22.4263pt too wide) in paragraph at lines 380--382
 \T1/CourierOneZeroPitch-TLF/regular/n/12 kjhgkhgkhg khgkhgkgh kjhkhkggkh khgkhg
 kh vxcvx cvxcv xcbcbvc bvcbv cbcvvnv
  []
@@ -1868,65 +1865,65 @@ F version <1.6>, but at most version <1.5> allowed
 <./Figuras/plot.pdf, id=254, 240.08696pt x 186.27393pt>
 File: ./Figuras/plot.pdf Graphic file (type pdf)
 <use ./Figuras/plot.pdf>
-Package pdftex.def Info: ./Figuras/plot.pdf  used on input line 383.
+Package pdftex.def Info: ./Figuras/plot.pdf  used on input line 385.
 (pdftex.def)             Requested size: 307.2929pt x 238.43831pt.
 LaTeX Font Info:    Font shape `T1/CourierOneZeroPitch-TLF/regular/n' will be
-(Font)              scaled to size 7.0pt on input line 383.
+(Font)              scaled to size 7.0pt on input line 385.
 grid=21 x 16. 
 LaTeX Font Info:    Font shape `T1/CourierOneZeroPitch-TLF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 401.
+(Font)              scaled to size 8.0pt on input line 403.
 LaTeX Font Info:    Font shape `T1/CourierOneZeroPitch-TLF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 401.
+(Font)              scaled to size 10.0pt on input line 403.
 
-Overfull \hbox (3.93112pt too wide) in paragraph at lines 398--402
+Overfull \hbox (3.93112pt too wide) in paragraph at lines 400--404
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 ggfdg gdfg gd gfdg gfgsgf ggsfg ggsd
 fg jhgjghjhk kjhgkhgkhg khgkhgkgh
  []
 
 
-Overfull \hbox (22.4263pt too wide) in paragraph at lines 398--402
+Overfull \hbox (22.4263pt too wide) in paragraph at lines 400--404
 \T1/CourierOneZeroPitch-TLF/regular/n/12 kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbv
 c bvcbv cbcvvnv nbmbn mnbmn bmn bmnb
  []
 
 
-Overfull \hbox (29.6503pt too wide) in paragraph at lines 398--402
+Overfull \hbox (29.6503pt too wide) in paragraph at lines 400--404
 \T1/CourierOneZeroPitch-TLF/regular/n/12 nbmnbmnb mn mnb mnbmbnmnb. ggfdg gdfg 
 gd gfdg gfgsgf ggsfg ggsdfg jhgjghjhk
  []
 
 
-Overfull \hbox (22.4263pt too wide) in paragraph at lines 398--402
+Overfull \hbox (22.4263pt too wide) in paragraph at lines 400--404
 \T1/CourierOneZeroPitch-TLF/regular/n/12 kjhgkhgkhg khgkhgkgh kjhkhkggkh khgkhg
 kh vxcvx cvxcv xcbcbvc bvcbv cbcvvnv
  []
 
 
-Overfull \hbox (15.2023pt too wide) in paragraph at lines 398--402
+Overfull \hbox (15.2023pt too wide) in paragraph at lines 400--404
 \T1/CourierOneZeroPitch-TLF/regular/n/12 nbmbn mnbmn bmn bmnb nbmnbmnb mn mnb m
 nbmbnmnb. ggfdg gdfg gd gfdg gfgsgf
  []
 
 
-Overfull \hbox (29.6503pt too wide) in paragraph at lines 398--402
+Overfull \hbox (29.6503pt too wide) in paragraph at lines 400--404
 \T1/CourierOneZeroPitch-TLF/regular/n/12 ggsfg ggsdfg jhgjghjhk kjhgkhgkhg khgk
 hgkgh kjhkhkggkh khgkhgkh vxcvx cvxcv
  []
 
 
-Overfull \hbox (29.6503pt too wide) in paragraph at lines 398--402
+Overfull \hbox (29.6503pt too wide) in paragraph at lines 400--404
 \T1/CourierOneZeroPitch-TLF/regular/n/12 xcbcbvc bvcbv cbcvvnv nbmbn mnbmn bmn 
 bmnb nbmnbmnb mn mnb mnbmbnmnb. ggfdg
  []
 
 
-Overfull \hbox (22.4263pt too wide) in paragraph at lines 398--402
+Overfull \hbox (22.4263pt too wide) in paragraph at lines 400--404
 \T1/CourierOneZeroPitch-TLF/regular/n/12 gdfg gd gfdg gfgsgf ggsfg ggsdfg jhgjg
 hjhk kjhgkhgkhg khgkhgkgh kjhkhkggkh
  []
 
 
-Overfull \hbox (7.9783pt too wide) in paragraph at lines 398--402
+Overfull \hbox (7.9783pt too wide) in paragraph at lines 400--404
 \T1/CourierOneZeroPitch-TLF/regular/n/12 khgkhgkh vxcvx cvxcv xcbcbvc bvcbv cbc
 vvnv nbmbn mnbmn bmn bmnb nbmnbmnb
  []
@@ -1935,161 +1932,149 @@ vvnv nbmbn mnbmn bmn bmnb nbmnbmnb
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (3.93112pt too wide) in paragraph at lines 423--424
+Overfull \hbox (3.93112pt too wide) in paragraph at lines 425--426
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 ggfdg gdfg gd gfdg gfgsgf ggsfg ggsd
 fg jhgjghjhk kjhgkhgkhg khgkhgkgh
  []
 
 
-Overfull \hbox (22.4263pt too wide) in paragraph at lines 423--424
+Overfull \hbox (22.4263pt too wide) in paragraph at lines 425--426
 \T1/CourierOneZeroPitch-TLF/regular/n/12 kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbv
 c bvcbv cbcvvnv nbmbn mnbmn bmn bmnb
  []
 
 File: ./Figuras/logox.png Graphic file (type png)
 <use ./Figuras/logox.png>
-Package pdftex.def Info: ./Figuras/logox.png  used on input line 424.
+Package pdftex.def Info: ./Figuras/logox.png  used on input line 426.
 (pdftex.def)             Requested size: 76.8193pt x 21.7414pt.
 [10
 
  <./Figuras/plot.pdf, page is rotated 90 degrees>]
-Underfull \hbox (badness 10000) in paragraph at lines 433--433
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
 []|\T1/CourierOneZeroPitch-TLF/regular/n/12 Permanente
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--433
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
 \T1/CourierOneZeroPitch-TLF/regular/n/12 de valor no
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--455
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/CourierOneZeroPitch-TLF/regular/n/12 Permanente
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--455
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/CourierOneZeroPitch-TLF/regular/n/12 de valor no
  []
 
 
-Overfull \hbox (47.27512pt too wide) in paragraph at lines 465--466
+Overfull \hbox (47.27512pt too wide) in paragraph at lines 467--468
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 sfsdafa sagdgdf ggfdg gdfg gd gfdg g
 fgsgf ggsfg ggsdfg jhgjghjhk kjhgkhgkhg
  []
 
 
-Overfull \hbox (29.6503pt too wide) in paragraph at lines 465--466
+Overfull \hbox (29.6503pt too wide) in paragraph at lines 467--468
 \T1/CourierOneZeroPitch-TLF/regular/n/12 khgkhgkgh kjhkhkggkh khgkhgkh vxcvx cv
 xcv xcbcbvc bvcbv cbcvvnv nbmbn mnbmn
  []
 
 
-Overfull \hbox (3.93112pt too wide) in paragraph at lines 469--470
+Overfull \hbox (3.93112pt too wide) in paragraph at lines 471--472
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 ggfdg gdfg gd gfdg gfgsgf ggsfg ggsd
 fg jhgjghjhk kjhgkhgkhg khgkhgkgh
  []
 
 
-Overfull \hbox (22.4263pt too wide) in paragraph at lines 469--470
+Overfull \hbox (22.4263pt too wide) in paragraph at lines 471--472
 \T1/CourierOneZeroPitch-TLF/regular/n/12 kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbv
 c bvcbv cbcvvnv nbmbn mnbmn bmn bmnb
  []
 
 
-Overfull \hbox (7.44pt too wide) in paragraph at lines 478--478
+Overfull \hbox (7.44pt too wide) in paragraph at lines 480--480
 []|\T1/CourierOneZeroPitch-TLF/bold/n/12 Etapa| 
  []
 
 
-Overfull \hbox (1.90808pt too wide) in paragraph at lines 478--478
+Overfull \hbox (1.90808pt too wide) in paragraph at lines 480--480
 []|\T1/CourierOneZeroPitch-TLF/bold/n/12 Ene-Mar| 
  []
 
 
-Overfull \hbox (1.90808pt too wide) in paragraph at lines 478--478
+Overfull \hbox (1.90808pt too wide) in paragraph at lines 480--480
 []|\T1/CourierOneZeroPitch-TLF/bold/n/12 Abr-Jun| 
  []
 
 
-Overfull \hbox (1.90808pt too wide) in paragraph at lines 478--478
+Overfull \hbox (1.90808pt too wide) in paragraph at lines 480--480
 []|\T1/CourierOneZeroPitch-TLF/bold/n/12 Jul-Set| 
  []
 
 
-Overfull \hbox (1.90808pt too wide) in paragraph at lines 478--478
+Overfull \hbox (1.90808pt too wide) in paragraph at lines 480--480
 []|\T1/CourierOneZeroPitch-TLF/bold/n/12 Oct-Dic| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--480
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
 []|\T1/CourierOneZeroPitch-TLF/regular/n/12 Primer documento a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 481--481
+Underfull \hbox (badness 10000) in paragraph at lines 483--483
 []|\T1/CourierOneZeroPitch-TLF/regular/n/12 Segundo documento, más
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 482--482
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
 []|\T1/CourierOneZeroPitch-TLF/regular/n/12 Este tema mejor que no
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
+Underfull \hbox (badness 10000) in paragraph at lines 485--485
 []|\T1/CourierOneZeroPitch-TLF/regular/n/12 Otro tema interesante en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--484
+Underfull \hbox (badness 10000) in paragraph at lines 486--486
 []|\T1/CourierOneZeroPitch-TLF/regular/n/12 Esto es importante,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--485
+Underfull \hbox (badness 10000) in paragraph at lines 487--487
 []|\T1/CourierOneZeroPitch-TLF/regular/n/12 Un documento para ver
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 488--488
 []|\T1/CourierOneZeroPitch-TLF/regular/n/12 Informe de evaluación
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 488--488
+Underfull \hbox (badness 10000) in paragraph at lines 490--490
 []|\T1/CourierOneZeroPitch-TLF/regular/n/12 Recomendaciones
  []
 
 
-Overfull \hbox (18.37912pt too wide) in paragraph at lines 493--494
+Overfull \hbox (18.37912pt too wide) in paragraph at lines 495--496
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 final de la tabla gdfg gd gfdg gfgsg
 f ggsfg ggsdfg jhgjghjhk kjhgkhgkhg
  []
 
 
-Overfull \hbox (29.6503pt too wide) in paragraph at lines 493--494
+Overfull \hbox (29.6503pt too wide) in paragraph at lines 495--496
 \T1/CourierOneZeroPitch-TLF/regular/n/12 khgkhgkgh kjhkhkggkh khgkhgkh vxcvx cv
 xcv xcbcbvc bvcbv cbcvvnv nbmbn mnbmn
  []
 
 File: ./Figuras/logox.png Graphic file (type png)
 <use ./Figuras/logox.png>
-Package pdftex.def Info: ./Figuras/logox.png  used on input line 495.
+Package pdftex.def Info: ./Figuras/logox.png  used on input line 497.
 (pdftex.def)             Requested size: 76.8193pt x 21.7414pt.
 [11]
-Overfull \hbox (3.93112pt too wide) in paragraph at lines 499--500
-[]\T1/CourierOneZeroPitch-TLF/regular/n/12 ggfdg gdfg gd gfdg gfgsgf ggsfg ggsd
-fg jhgjghjhk kjhgkhgkhg khgkhgkgh
- []
-
-
-Overfull \hbox (22.4263pt too wide) in paragraph at lines 499--500
-\T1/CourierOneZeroPitch-TLF/regular/n/12 kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbv
-c bvcbv cbcvvnv nbmbn mnbmn bmn bmnb
- []
-
-
 Overfull \hbox (3.93112pt too wide) in paragraph at lines 501--502
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 ggfdg gdfg gd gfdg gfgsgf ggsfg ggsd
 fg jhgjghjhk kjhgkhgkhg khgkhgkgh
@@ -2101,91 +2086,103 @@ Overfull \hbox (22.4263pt too wide) in paragraph at lines 501--502
 c bvcbv cbcvvnv nbmbn mnbmn bmn bmnb
  []
 
-<example-image-a.pdf, id=280, 321.2pt x 240.9pt>
-File: example-image-a.pdf Graphic file (type pdf)
-<use example-image-a.pdf>
-Package pdftex.def Info: example-image-a.pdf  used on input line 506.
-(pdftex.def)             Requested size: 240.71094pt x 180.53853pt.
-<example-image-b.pdf, id=281, 321.2pt x 240.9pt>
-File: example-image-b.pdf Graphic file (type pdf)
-<use example-image-b.pdf>
-Package pdftex.def Info: example-image-b.pdf  used on input line 509.
-(pdftex.def)             Requested size: 240.71094pt x 180.53853pt.
-File: ./Figuras/logox.png Graphic file (type png)
-<use ./Figuras/logox.png>
-Package pdftex.def Info: ./Figuras/logox.png  used on input line 511.
-(pdftex.def)             Requested size: 76.8193pt x 21.7414pt.
-[12]
-File: example-image-a.pdf Graphic file (type pdf)
-<use example-image-a.pdf>
-Package pdftex.def Info: example-image-a.pdf  used on input line 515.
-(pdftex.def)             Requested size: 240.71094pt x 180.53853pt.
 
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 516.
-See the caption package documentation for explanation.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 516--516
-[][]\T1/CourierOneZeroPitch-TLF/bold/n/12 Figura 11\T1/CourierOneZeroPitch-TLF/
-regular/n/12 : |[]Leyenda de la figura
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--520
-[]\T1/CourierOneZeroPitch-TLF/regular/n/12 ggfdg gdfg gd gfdg
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--520
-\T1/CourierOneZeroPitch-TLF/regular/n/12 gfgsgf ggsfg ggsdfg
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--520
-\T1/CourierOneZeroPitch-TLF/regular/n/12 jhgjghjhk kjhgkhgkhg
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--520
-\T1/CourierOneZeroPitch-TLF/regular/n/12 khgkhgkgh kjhkhkggkh
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--520
-\T1/CourierOneZeroPitch-TLF/regular/n/12 khgkhgkh vxcvx cvxcv
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--520
-\T1/CourierOneZeroPitch-TLF/regular/n/12 xcbcbvc bvcbv cbcvvnv
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--520
-\T1/CourierOneZeroPitch-TLF/regular/n/12 nbmbn mnbmn bmn
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--520
-\T1/CourierOneZeroPitch-TLF/regular/n/12 bmnb nbmnbmnb mn mnb
- []
-
-
-Overfull \hbox (3.93112pt too wide) in paragraph at lines 524--525
+Overfull \hbox (3.93112pt too wide) in paragraph at lines 503--504
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 ggfdg gdfg gd gfdg gfgsgf ggsfg ggsd
 fg jhgjghjhk kjhgkhgkhg khgkhgkgh
  []
 
 
-Overfull \hbox (22.4263pt too wide) in paragraph at lines 524--525
+Overfull \hbox (22.4263pt too wide) in paragraph at lines 503--504
+\T1/CourierOneZeroPitch-TLF/regular/n/12 kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbv
+c bvcbv cbcvvnv nbmbn mnbmn bmn bmnb
+ []
+
+<example-image-a.pdf, id=280, 321.2pt x 240.9pt>
+File: example-image-a.pdf Graphic file (type pdf)
+<use example-image-a.pdf>
+Package pdftex.def Info: example-image-a.pdf  used on input line 508.
+(pdftex.def)             Requested size: 240.71094pt x 180.53853pt.
+<example-image-b.pdf, id=281, 321.2pt x 240.9pt>
+File: example-image-b.pdf Graphic file (type pdf)
+<use example-image-b.pdf>
+Package pdftex.def Info: example-image-b.pdf  used on input line 511.
+(pdftex.def)             Requested size: 240.71094pt x 180.53853pt.
+File: ./Figuras/logox.png Graphic file (type png)
+<use ./Figuras/logox.png>
+Package pdftex.def Info: ./Figuras/logox.png  used on input line 513.
+(pdftex.def)             Requested size: 76.8193pt x 21.7414pt.
+[12]
+File: example-image-a.pdf Graphic file (type pdf)
+<use example-image-a.pdf>
+Package pdftex.def Info: example-image-a.pdf  used on input line 517.
+(pdftex.def)             Requested size: 240.71094pt x 180.53853pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 518.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 518--518
+[][]\T1/CourierOneZeroPitch-TLF/bold/n/12 Figura 11\T1/CourierOneZeroPitch-TLF/
+regular/n/12 : |[]Leyenda de la figura
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
+[]\T1/CourierOneZeroPitch-TLF/regular/n/12 ggfdg gdfg gd gfdg
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
+\T1/CourierOneZeroPitch-TLF/regular/n/12 gfgsgf ggsfg ggsdfg
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
+\T1/CourierOneZeroPitch-TLF/regular/n/12 jhgjghjhk kjhgkhgkhg
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
+\T1/CourierOneZeroPitch-TLF/regular/n/12 khgkhgkgh kjhkhkggkh
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
+\T1/CourierOneZeroPitch-TLF/regular/n/12 khgkhgkh vxcvx cvxcv
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
+\T1/CourierOneZeroPitch-TLF/regular/n/12 xcbcbvc bvcbv cbcvvnv
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
+\T1/CourierOneZeroPitch-TLF/regular/n/12 nbmbn mnbmn bmn
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
+\T1/CourierOneZeroPitch-TLF/regular/n/12 bmnb nbmnbmnb mn mnb
+ []
+
+
+Overfull \hbox (3.93112pt too wide) in paragraph at lines 526--527
+[]\T1/CourierOneZeroPitch-TLF/regular/n/12 ggfdg gdfg gd gfdg gfgsgf ggsfg ggsd
+fg jhgjghjhk kjhgkhgkhg khgkhgkgh
+ []
+
+
+Overfull \hbox (22.4263pt too wide) in paragraph at lines 526--527
 \T1/CourierOneZeroPitch-TLF/regular/n/12 kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbv
 c bvcbv cbcvvnv nbmbn mnbmn bmn bmnb
  []
 
 
-Overfull \hbox (20.6074pt too wide) in paragraph at lines 526--526
+Overfull \hbox (20.6074pt too wide) in paragraph at lines 528--528
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 Tenemos también $\OML/cmm/m/it/12 f[
 ]$ \T1/CourierOneZeroPitch-TLF/regular/n/12 o sino $\OML/cmm/m/it/12 x[]$\T1/Co
 urierOneZeroPitch-TLF/regular/n/12 , también tenemos $[]$ o sino $[]$ o la raíz
@@ -2193,18 +2190,18 @@ urierOneZeroPitch-TLF/regular/n/12 , también tenemos $[]$ o sino $[]$ o la raíz
  []
 
 
-Overfull \hbox (11.15512pt too wide) in paragraph at lines 528--529
+Overfull \hbox (11.15512pt too wide) in paragraph at lines 530--531
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 La ecuación [][]1[][] se referencia 
 solo el número, pero podemos escribir todo
  []
 
 File: ./Figuras/logox.png Graphic file (type png)
 <use ./Figuras/logox.png>
-Package pdftex.def Info: ./Figuras/logox.png  used on input line 538.
+Package pdftex.def Info: ./Figuras/logox.png  used on input line 540.
 (pdftex.def)             Requested size: 76.8193pt x 21.7414pt.
 [13 <C:/Users/l/AppData/Roaming/MiKTeX/tex/latex/mwe/example-image-a.pdf> <C:/U
 sers/l/AppData/Roaming/MiKTeX/tex/latex/mwe/example-image-b.pdf>]
-Overfull \hbox (42.61806pt too wide) detected at line 610
+Overfull \hbox (42.61806pt too wide) detected at line 612
 \OML/cmm/m/it/12 A \OT1/cmr/m/n/12 = [] \OML/cmm/m/it/12 ;  B \OT1/cmr/m/n/12 =
  [] \OML/cmm/m/it/12 ;  C \OT1/cmr/m/n/12 =  [] \OML/cmm/m/it/12 ;  D \OT1/cmr/
 m/n/12 = [] \OML/cmm/m/it/12 ;  E \OT1/cmr/m/n/12 = [] \OML/cmm/m/it/12 ;  F \O
@@ -2212,199 +2209,199 @@ T1/cmr/m/n/12 = []
  []
 
 
-Overfull \hbox (25.60312pt too wide) in paragraph at lines 613--615
+Overfull \hbox (25.60312pt too wide) in paragraph at lines 615--617
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 Ir a asistentes y después asistente 
 de matemáticas ... que está al final
  []
 
 
-Overfull \hbox (7.9783pt too wide) in paragraph at lines 613--615
+Overfull \hbox (7.9783pt too wide) in paragraph at lines 615--617
 \T1/CourierOneZeroPitch-TLF/regular/n/12 del menú. No olvidar poner el entorno 
 equation para escribir en lenguaje
  []
 
 
-Overfull \hbox (3.93112pt too wide) in paragraph at lines 621--622
+Overfull \hbox (3.93112pt too wide) in paragraph at lines 623--624
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 Undefined control sequence.- No cono
 ce el comando. Está mal escrito o
  []
 
 
-Overfull \hbox (18.37912pt too wide) in paragraph at lines 625--626
+Overfull \hbox (18.37912pt too wide) in paragraph at lines 627--628
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 Extra } or forggotten $.- Falta cerr
 ar una viñeta o entorno matemático. 
  []
 
 
-Overfull \hbox (3.93112pt too wide) in paragraph at lines 627--628
+Overfull \hbox (3.93112pt too wide) in paragraph at lines 629--630
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 File ended while scannig. . ..- Algo
  empezó con  pero nunca se cerró. 
  []
 
 File: ./Figuras/logox.png Graphic file (type png)
 <use ./Figuras/logox.png>
-Package pdftex.def Info: ./Figuras/logox.png  used on input line 629.
+Package pdftex.def Info: ./Figuras/logox.png  used on input line 631.
 (pdftex.def)             Requested size: 76.8193pt x 21.7414pt.
 [14]
-Overfull \hbox (11.15512pt too wide) in paragraph at lines 629--630
+Overfull \hbox (11.15512pt too wide) in paragraph at lines 631--632
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 llegal unit of measure.- No se indic
 ó una unidad de medida o distancia
  []
 
 
-Overfull \hbox (11.15512pt too wide) in paragraph at lines 631--632
+Overfull \hbox (11.15512pt too wide) in paragraph at lines 633--634
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 File `nombre' not found.- No se encu
 entra un archivo. No existe o está
  []
 
 
-Overfull \hbox (9.93114pt too wide) in paragraph at lines 633--634
+Overfull \hbox (9.93114pt too wide) in paragraph at lines 635--636
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 Extra alignment tab has been changed
  to $\OMS/cmsy/m/n/12 n$\T1/CourierOneZeroPitch-TLF/regular/n/12 cr.- Faltan o 
 sobran columnas
  []
 
 
-Overfull \hbox (25.60312pt too wide) in paragraph at lines 635--636
+Overfull \hbox (25.60312pt too wide) in paragraph at lines 637--638
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 Environment `nombre' undefined.- No 
 existe o se escribió mal un entorno. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 635--636
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
 
  []
 
 
-Overfull \hbox (40.05112pt too wide) in paragraph at lines 639--640
+Overfull \hbox (40.05112pt too wide) in paragraph at lines 641--642
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 No position in optional float specif
 ier.- No se indició posición en figura
  []
 
 
-Overfull \hbox (25.60312pt too wide) in paragraph at lines 641--642
+Overfull \hbox (25.60312pt too wide) in paragraph at lines 643--644
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 Reference `nombre' undefined.- No se
  encuentra una referencia. No existe
  []
 
 
-Overfull \hbox (11.15512pt too wide) in paragraph at lines 643--644
+Overfull \hbox (11.15512pt too wide) in paragraph at lines 645--646
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 There were multiply-defined labels.-
  Cuando tenemos más de un elemento
  []
 
 File: ./Figuras/logox.png Graphic file (type png)
 <use ./Figuras/logox.png>
-Package pdftex.def Info: ./Figuras/logox.png  used on input line 666.
+Package pdftex.def Info: ./Figuras/logox.png  used on input line 668.
 (pdftex.def)             Requested size: 76.8193pt x 21.7414pt.
 [15]
 
-LaTeX Warning: Citation 'notsoshort' on page 16 undefined on input line 670.
+LaTeX Warning: Citation 'notsoshort' on page 16 undefined on input line 672.
 
 
-LaTeX Warning: Citation 'typogra' on page 16 undefined on input line 670.
+LaTeX Warning: Citation 'typogra' on page 16 undefined on input line 672.
 
 
-LaTeX Warning: Citation 'notsoshort' on page 16 undefined on input line 670.
+LaTeX Warning: Citation 'notsoshort' on page 16 undefined on input line 672.
 
 
-LaTeX Warning: Citation 'typogra' on page 16 undefined on input line 670.
+LaTeX Warning: Citation 'typogra' on page 16 undefined on input line 672.
 
 
-Overfull \hbox (3.93112pt too wide) in paragraph at lines 670--671
+Overfull \hbox (3.93112pt too wide) in paragraph at lines 672--673
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 ggfdg gdfg gd gfdg gfgsgf ggsfg ggsd
 fg jhgjghjhk kjhgkhgkhg khgkhgkgh
  []
 
 
-Overfull \hbox (22.4263pt too wide) in paragraph at lines 670--671
+Overfull \hbox (22.4263pt too wide) in paragraph at lines 672--673
 \T1/CourierOneZeroPitch-TLF/regular/n/12 kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbv
 c bvcbv cbcvvnv nbmbn mnbmn bmn bmnb
  []
 
 
-Overfull \hbox (7.9783pt too wide) in paragraph at lines 670--671
+Overfull \hbox (7.9783pt too wide) in paragraph at lines 672--673
 \T1/CourierOneZeroPitch-TLF/regular/n/12 nbmnbmnb mn mnb mnbmbnmnb. Como dijo [
 ]. Tengo también a []
  []
 
 LaTeX Font Info:    Font shape `T1/CourierOneZeroPitch-TLF/regular/it' will be
-(Font)              scaled to size 12.0pt on input line 673.
+(Font)              scaled to size 12.0pt on input line 675.
 LaTeX Font Info:    Font shape `T1/CourierOneZeroPitch-TLF/regular/it' will be
-(Font)              scaled to size 8.0pt on input line 673.
+(Font)              scaled to size 8.0pt on input line 675.
 
-Overfull \hbox (3.93112pt too wide) in paragraph at lines 680--681
+Overfull \hbox (3.93112pt too wide) in paragraph at lines 682--683
 []\T1/CourierOneZeroPitch-TLF/regular/n/12 ggfdg gdfg gd gfdg gfgsgf ggsfg ggsd
 fg jhgjghjhk kjhgkhgkhg khgkhgkgh
  []
 
 
-Overfull \hbox (22.4263pt too wide) in paragraph at lines 680--681
+Overfull \hbox (22.4263pt too wide) in paragraph at lines 682--683
 \T1/CourierOneZeroPitch-TLF/regular/n/12 kjhkhkggkh khgkhgkh vxcvx cvxcv xcbcbv
 c bvcbv cbcvvnv nbmbn mnbmn bmn bmnb
  []
 
 
-Overfull \hbox (44.0983pt too wide) in paragraph at lines 680--681
+Overfull \hbox (44.0983pt too wide) in paragraph at lines 682--683
 \T1/CourierOneZeroPitch-TLF/regular/n/12 nbmnbmnb mn mnb mnbmbnmnb. Como dijo [
 ]Argosy Medical Animation, [][]2007[][] y también
  []
 
 
-Overfull \hbox (0.7543pt too wide) in paragraph at lines 680--681
+Overfull \hbox (0.7543pt too wide) in paragraph at lines 682--683
 \T1/CourierOneZeroPitch-TLF/regular/n/12 ([]Hegna & Langmyhr, [][]2019[][][]; I
 esan, [][]1996[][][]; Kime & Charette, [][]2015[][]) y por otra
  []
 
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 6
-83.
+85.
 (C:\Program Files\MiKTeX\tex/latex/base\t1cmss.fd
 File: t1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-Overfull \hbox (0.7543pt too wide) in paragraph at lines 683--683
+Overfull \hbox (0.7543pt too wide) in paragraph at lines 685--685
 [][]\T1/CourierOneZeroPitch-TLF/regular/n/12 Argosy Medical Animation. (2007). 
 Visible body: Discover human anatomy.
  []
 
 
-Overfull \hbox (0.75314pt too wide) in paragraph at lines 683--683
+Overfull \hbox (0.75314pt too wide) in paragraph at lines 685--685
 [][]\T1/CourierOneZeroPitch-TLF/regular/n/12 Hegna, K., & Langmyhr, D. (2019). 
 \T1/CourierOneZeroPitch-TLF/regular/it/12 Local guide to BibLaTeX\T1/CourierOne
 ZeroPitch-TLF/regular/n/12 . Department of
  []
 
 
-Overfull \hbox (0.7543pt too wide) in paragraph at lines 683--683
+Overfull \hbox (0.7543pt too wide) in paragraph at lines 685--685
 [][]\T1/CourierOneZeroPitch-TLF/regular/n/12 Iesan, D. (1996). Existence Theore
 ms in the Theory of Mixtures. \T1/CourierOneZeroPitch-TLF/regular/it/12 Journal
 
  []
 
 
-Overfull \hbox (0.7543pt too wide) in paragraph at lines 683--683
+Overfull \hbox (0.7543pt too wide) in paragraph at lines 685--685
 [][]\T1/CourierOneZeroPitch-TLF/regular/n/12 Kime, P., & Charette, F. (2015). b
 iber ^^V A BibTeX replacement for users
  []
 
 
-Overfull \hbox (8.44365pt too wide) in paragraph at lines 683--683
+Overfull \hbox (8.44365pt too wide) in paragraph at lines 685--685
 \T1/CourierOneZeroPitch-TLF/regular/n/12 of biblatex. Consultado el 9 de febrer
 o de 2016, desde [][]$\T1/cmss/m/n/12 http : / / www . ctan .
  []
 
 
-Overfull \hbox (3.39821pt too wide) in paragraph at lines 692--693
+Overfull \hbox (3.39821pt too wide) in paragraph at lines 694--695
 [][] 
  []
 
 File: ./Figuras/logox.png Graphic file (type png)
 <use ./Figuras/logox.png>
-Package pdftex.def Info: ./Figuras/logox.png  used on input line 693.
+Package pdftex.def Info: ./Figuras/logox.png  used on input line 695.
 (pdftex.def)             Requested size: 76.8193pt x 21.7414pt.
 [16]
 File: ./Figuras/logox.png Graphic file (type png)
 <use ./Figuras/logox.png>
-Package pdftex.def Info: ./Figuras/logox.png  used on input line 693.
+Package pdftex.def Info: ./Figuras/logox.png  used on input line 695.
 (pdftex.def)             Requested size: 76.8193pt x 21.7414pt.
  [17] 
 enddocument/afterlastpage: lastpage setting LastPage.
@@ -2415,7 +2412,7 @@ LaTeX Info: Redefining \% on input line 9.
 )
  ***********
 LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-02-20>
+L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `notasDeLatex.out' has not changed.
 (rerunfilecheck)             Checksum: E9395D01C69F692CB569519342BE33FD;4876.
@@ -2425,13 +2422,13 @@ Package logreq Info: Writing requests to 'notasDeLatex.run.xml'.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 627 ({)
+### simple group (level 1) entered at line 629 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 36017 strings out of 474435
- 694172 string characters out of 5751761
- 1947190 words of memory out of 5000000
- 57729 multiletter control sequences out of 15000+600000
+ 36013 strings out of 474423
+ 694071 string characters out of 5751545
+ 1947496 words of memory out of 5000000
+ 57737 multiletter control sequences out of 15000+600000
  570721 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  88i,16n,131p,687b,2899s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2450,7 +2447,7 @@ pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
 am Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type
 1/public/lm/lmss17.pfb>
-Output written on notasDeLatex.pdf (18 pages, 981890 bytes).
+Output written on notasDeLatex.pdf (18 pages, 981750 bytes).
 PDF statistics:
  440 PDF objects out of 1000 (max. 8388607)
  84 named destinations out of 1000 (max. 500000)
